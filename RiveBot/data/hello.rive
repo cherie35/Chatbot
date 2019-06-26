@@ -1,0 +1,38 @@
+! version = 2.0
+
++ hello *
++ hello
++ hi
+- hello there!
+- hya
+- konichiwa
+- howdy partner
+- bonjour
+- yo
+
++ my name is *
+- <set name=<star1>>Nice to meet you, <get name>.
+
++ i am * years old
+- <set age=<star>><get age>
+
++ what is up
+- space.
+- The sky.
+- Rainbows.
+
++ pick a number
+- I pick {random}0|1|2|3|4|5|6{/random}.
+
++ how are you
+- Great!{weight=20}
+- Terrible!{weight=10}
+- so-so
+- magnificent!
+-
+- I have no idea.
+
++ tell me a story
+- Haikus are easy\n
+^ Anybody can write one\n
+^ I just wrote one now
